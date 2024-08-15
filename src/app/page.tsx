@@ -156,10 +156,10 @@ export default function Home() {
                 />
                 <div className="flex flex-col">
                   <p className="font-semibold">Cristiano</p>
-                  <p className="flex gap-1.5 items-center text-zinc-600">
+                  <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-blue-600" />
                     <p className="text-sm">Verified Purchase</p>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -189,12 +189,11 @@ export default function Home() {
                 />
                 <div className="flex flex-col">
                   <p className="font-semibold">Jay</p>
-                  <p className="flex gap-1.5 items-center text-zinc-600">
+
+                  <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-blue-600" />
-                    <div>
-                      <p className="text-sm">Verified Purchase</p>
-                    </div>
-                  </p>
+                    <p className="text-sm">Verified Purchase</p>
+                  </div>
                 </div>
               </div>
             </div>
